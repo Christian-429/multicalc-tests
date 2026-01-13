@@ -16,7 +16,7 @@ function Form() {
     }
   }
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <label htmlFor="value">Calculate with: </label>
       <input
         type="number"
